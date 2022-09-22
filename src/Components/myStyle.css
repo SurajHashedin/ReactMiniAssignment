@@ -1,6 +1,30 @@
 .primary {
-    color: orange;
+    color: black;
 }
 .styleName{
     margin-right:50px;
+
 }
+.reset{
+    color: red
+}
+
+.fontsize{
+    font-size:250%;
+    color: green
+}
+
+.div1 {
+    width: 300px;
+    border: 10px solid green;
+
+    position: absolute;
+    top:0;
+    bottom: 16;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    background-image: url("/Users/sukumarsoni/Downloads/React/counter-application/paper.jpeg");
+    background-color: #cccccc;
+  }

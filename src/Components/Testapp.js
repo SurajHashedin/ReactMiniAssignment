@@ -39,17 +39,17 @@ function Testapp(props) {
     });
   };
   return (
-    <div>
+    <div class="div1">
         <h1 className={className}>React Counter</h1>
-        <span STYLE="font-size:200%">{count.num}</span>
+        <span class="fontsize" >{count.num}</span>
       <br></br>
-      <button STYLE="margin-right:50px" onClick={handleAdd}>+</button>
+      <button class="styleName" onClick={handleAdd}>+</button>
 
       <button onClick={handleSubstract}>-</button>
         <br></br>
         <br></br>
         <br></br>
-      <button onClick={handleReset}>Reset</button>
+      <button class="reset" onClick={handleReset}>Reset</button>
 
     </div>
   );
